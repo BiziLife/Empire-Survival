@@ -15,6 +15,16 @@
     text-align: center;
     height: 750px;
     width:1000px;
+    right: 100px;
+}
+
+.Background-Slogan-Img{
+    height: 500px;
+    position: absolute;
+    width: 500px;
+    top: 300px;
+    right: 150px;
+    bottom: 100px;
 }
 
 body{
@@ -48,3 +58,18 @@ body{
     text-decoration: none;
 }
 
+h2{
+    padding: 50px 50px;
+    font-size: 42px
+}
+
+p{
+    padding-bottom: 150px;
+    color: black;
+    font-size: 36px;
+}
+
+img{
+    height: 50px;
+    width:50px;
+}
