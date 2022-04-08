@@ -63,7 +63,7 @@ body{
 .AboutPage{
     background-color: #F5F5F5;
     padding-top: 75px;
-    scroll-behavior: smooth;
+    z-index: 5;
 }
 
 .ContactPage{
