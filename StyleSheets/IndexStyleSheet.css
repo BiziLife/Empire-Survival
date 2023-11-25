@@ -71,7 +71,6 @@ html {
     margin-top: 100px;
 }
 
-/* contact page code */
 .ContactPage {
     padding-top: 150px;
     text-align: center; /* Center align content */
@@ -91,7 +90,7 @@ html {
     height: 50px;
     width: 50px;
 }
-/* Media Queries for responsiveness */
+
 @media screen and (min-width: 768px) {
     /* Adjustments for tablet */
     .AboutPage p {
@@ -118,4 +117,16 @@ html {
     }
 
     /* Other adjustments for larger screens here */
+}
+
+@media screen and (min-width: 1200px) {
+    .LogoLinks {
+        flex-wrap: wrap; /* Allow wrapping of logos */
+    }
+
+    .InstgramLogo,
+    .FacebookLogo,
+    .YoutubeLogo {
+        margin: 20px; /* Adjust margin for larger screens */
+    }
 }
