@@ -77,16 +77,16 @@ html {
 }
 
 .LogoLinks {
-    margin-top: 50px; /* Adjust top margin */
+    margin-top: 50px; 
     display: flex;
-    justify-content: center; /* Center the logos */
+    justify-content: center; 
     align-items: center;
 }
 
 .InstgramLogo,
 .FacebookLogo,
 .YoutubeLogo {
-    margin: 0 20px; /* Add spacing between logos */
+    margin: 0 20px; 
     height: 50px;
     width: 50px;
 }
@@ -94,17 +94,14 @@ html {
 @media screen and (min-width: 768px) {
     /* Adjustments for tablet */
     .AboutPage p {
-        margin-top: 50px; /* Reduce margin */
-        font-size: 24px; /* Adjust font size */
+        margin-top: 50px; 
+        font-size: 24px; 
     }
-
-    /* Other tablet adjustments here */
 }
 
 @media screen and (min-width: 1000px) {
-    /* Adjustments for larger screens */
     .Background-Logo-Img {
-        top: 200px; /* Adjust position */
+        top: 200px; 
     }
 
     .Background-Img {
@@ -112,21 +109,19 @@ html {
     }
 
     .AboutPage p {
-        margin-top: 100px; /* Adjust margin */
-        font-size: 32px; /* Adjust font size */
+        margin-top: 100px;
+        font-size: 32px; 
     }
-
-    /* Other adjustments for larger screens here */
 }
 
 @media screen and (min-width: 1200px) {
     .LogoLinks {
-        flex-wrap: wrap; /* Allow wrapping of logos */
+        flex-wrap: wrap; 
     }
 
     .InstgramLogo,
     .FacebookLogo,
     .YoutubeLogo {
-        margin: 20px; /* Adjust margin for larger screens */
+        margin: 20px; 
     }
 }
