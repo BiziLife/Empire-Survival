@@ -42,6 +42,12 @@ html {
     text-decoration: none;
 }
 
+.Background-Img {
+    max-height: 80vh; /* Set a maximum height relative to the viewport height */
+    margin-top: 100px;
+    width: auto; /* Allow the width to adjust automatically */
+    z-index: -5;
+}
 
 .Background-Logo-Img {
     position: absolute;
